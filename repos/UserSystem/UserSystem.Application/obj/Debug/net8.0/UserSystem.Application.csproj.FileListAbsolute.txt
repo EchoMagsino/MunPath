@@ -1,0 +1,15 @@
+c:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\bin\Debug\net8.0\UserSystem.Application.deps.json
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\bin\Debug\net8.0\UserSystem.Application.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\bin\Debug\net8.0\UserSystem.Application.pdb
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\bin\Debug\net8.0\UserSystem.Domain.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\bin\Debug\net8.0\UserSystem.Domain.pdb
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.csproj.CoreCompileInputs.cache
+c:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSyst.7333A462.Up2Date
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\refint\UserSystem.Application.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\UserSystem.Application.pdb
+c:\Users\Lenovo\source\repos\UserSystem\UserSystem.Application\obj\Debug\net8.0\ref\UserSystem.Application.dll

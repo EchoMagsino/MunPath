@@ -1,0 +1,168 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!--Wheel cards-->
+
+<section >
+    <h2  id="wheels-heading" class="text-center mb-4">Our Wheels</h2>
+</section>
+
+<section class="mt-4" aria-labelledby="wheels-heading">
+    
+    <div class="container">
+        
+        <div class="row">
+
+            <!-- Product Card 1 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel1 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">Premium Alloy Wheel</h3>
+                        <p class="card-text">Sleek dual‑tone design built for strength and style.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱8,500</strong></p>
+                </footer>
+            </article>
+
+
+            <!-- Product Card 2 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel2 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">Sport Wheel</h3>
+                        <p class="card-text">Aggressive Y‑spoke design with a concave profile, engineered for speed and control. Paired with a bold brake caliper accent, it delivers a racing vibe that’s perfect for high‑performance builds.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱7,200</strong></p>
+                </footer>
+            </article>
+
+            <!-- Product Card 3 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel3 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">Luxury Wheel</h3>
+                        <p class="card-text">Gold‑and‑black multi‑spoke design with a carbon‑ceramic brake accent, crafted for exclusivity and sophistication. Perfect for high‑end builds that demand both performance and prestige.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱9,800</strong></p>
+                </footer>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section class="button">
+    <a class="btn btn-primary">Click for more</a>
+</section>
+
+
+<!--Tire cards-->
+
+<section class="mt-4" aria-labelledby="wheels-heading">
+    <div class="container">
+        <h2 id="wheels-heading" class="text-center mb-4">Our Tires</h2>
+        <div class="row">
+
+            <!-- Product Card 1 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel4 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">Bridgestone Potenza</h3>
+                        <p class="card-text">Those are all ultra-high-performance tires made for sports cars — built for speed, grip, and precision handling.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱8,500</strong></p>
+                </footer>
+            </article>
+
+            <!-- Product Card 2 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel5 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">TrailCrusher X5</h3>
+                        <p class="card-text">Built with deep, interlocking tread blocks and wide grooves for maximum grip on rugged terrain. Delivers durability, traction, and confidence whether on mud, gravel, or rocky paths.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱7,200</strong></p>
+                </footer>
+            </article>
+
+            <!-- Product Card 3 -->
+            <article class="col-md-4">
+                <figure class="wheel-card wheel6 mb-3" onclick="toggleOverlay(this)">
+                    <div class="card-overlay d-none text-center">
+                        <h3 class="card-title">hydro‑grip</h3>
+                        <p class="card-text">Engineered with deep hydro channels and precision sipes for superior water dispersion. Delivers confident traction, smooth handling, and safety even in heavy rain.</p>
+                        <a href="#" class="btn btn-warning">View Details</a>
+                    </div>
+                </figure>
+                <footer class="text-center">
+                    <p class="card-price"><strong>Price: ₱9,800</strong></p>
+                </footer>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section class="button">
+    <a class="btn btn-primary">Click for more</a>
+</section>
+
+
+
+<!-- First Service -->
+<section class="services-section">
+    <div class="services-header">
+        <h3>
+            We don’t just offer products; we also provide services that ensure your safety, comfort, and confidence on the road.
+            From expert tire vulcanizing to precision wheel balancing and professional installation, our commitment goes beyond
+            selling — we deliver complete care for your vehicle. <em>Click them to see the details</em>.
+        </h3>
+    </div>
+
+    <div class="services-triangle" id="servicesTriangle">
+        <div class="services-content" id="servicesContent">
+            <h2 class="mb-4">Our Services</h2>
+            <p>We offer tire vulcanizing</p>
+        </div>
+    </div>
+</section>
+
+
+<p class="button"></p>
+
+<!-- Second Service -->
+<section class="services-section">
+    <div class="services-triangle reverse" id="servicesTriangle2">
+        <div class="services-content" id="servicesContent2">
+            <h2 class="mb-4">Wheel Balancing</h2>
+            <p>Precision balancing ensures smoother rides and longer tire life.</p>
+        </div>
+    </div>
+</section>
+
+<section class="button">
+    <a class="btn btn-primary">View All Services</a>
+</section>
+
+
+
+
+
+
+

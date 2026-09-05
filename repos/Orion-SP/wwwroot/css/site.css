@@ -1,0 +1,292 @@
+﻿/* ==========================================================================
+   1. Base HTML & Body Setup
+   ========================================================================== */
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    color: #FFFDD0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0.7), rgba(17, 17, 17, 0.0)), url('../images/pexels-tami-19499388.jpg') left center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+.container {
+    color: white !important;
+}
+
+/* ==========================================================================
+   2. Navigation Section
+   ========================================================================== */
+.navbar.navbar-expand-md.bg-primary {
+    background-color: #2c0000 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-nav, .navbar-nav.flex-grow-1 {
+    margin-left: auto !important;
+}
+
+.nav-link.text-dark {
+    color: #FFFDD0 !important;
+    transition: color 0.3s ease;
+}
+
+    .nav-link.text-dark:hover {
+        color: white !important;
+        text-decoration: underline;
+    }
+
+.logo {
+    height: 55px;
+    width: auto;
+    max-width: 180px;
+    object-fit: contain;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.6));
+}
+
+/* ==========================================================================
+   3. Product Cards & Fade-In Logic
+   ========================================================================== */
+article {
+    background: #1c1c1c;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    article:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+.wheel-card {
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4 / 3;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    opacity: 0; /* Hidden initially for JS animation */
+}
+
+    /* JS Class for Fade-in */
+    .wheel-card.fade-in {
+        animation: fadeInAnimation 1s ease-out forwards;
+    }
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Images */
+.wheel-card.wheel1 {
+    background-image: url("../images/Wheel1.png");
+}
+
+.wheel-card.wheel2 {
+    background-image: url("../images/Wheel2.png");
+}
+
+.wheel-card.wheel3 {
+    background-image: url("../images/Wheel3.png");
+}
+
+.wheel-card.wheel4 {
+    background-image: url('../images/Tire1.png');
+}
+
+.wheel-card.wheel5 {
+    background-image: url('../images/Tire2.png');
+}
+
+.wheel-card.wheel6 {
+    background-image: url('../images/Tire3.png');
+}
+
+.card-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-price {
+    color: #FFD700;
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 80px !important;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ==========================================================================
+   4. Services Section (Box & Triangle Logic)
+   ========================================================================== */
+
+/* The Intro Box at the top */
+.services-header h3 {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 253, 208, 0.2);
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.1rem;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    color: #FFFDD0;
+}
+
+.services-triangle {
+    position: relative;
+    width: 900px; /* fixed width */
+    height: 600px; /* fixed height */
+    cursor: pointer;
+    opacity: 0; /* hidden until reveal */
+    transform: translateY(50px);
+    transition: opacity 1.2s ease, transform 1.2s ease;
+    overflow: hidden; /* keeps text clipped */
+    margin: 0 auto; /* centers horizontally */
+    border-radius: 8px; /* smoother corners */
+    box-shadow: 0 8px 20px rgba(104,104,104,0.6); /* soft shadow */
+}
+
+
+    /* Reveal effect */
+    .services-triangle.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Triangle Shape Backgrounds */
+    .services-triangle:not(.reverse) {
+        background: linear-gradient(rgba(44, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Service1.png') center/cover;
+/*        clip-path: polygon(100% 0, 100% 100%, 0 100%);*/
+    }
+
+    .services-triangle.reverse {
+        background: linear-gradient(rgba(44, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/Service2.png') center/cover;
+/*        clip-path: polygon(0 0, 100% 100%, 0 100%);*/
+    }
+
+/* THE SERVICE BOX (Text Wrapper) */
+.services-content {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 12px; /* Reduced padding for a smaller box */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 253, 208, 0.3);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    color: #FFFDD0;
+    /* Justified Format */
+    text-align: justify;
+    text-justify: inter-word;
+    /* Animation State */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* BIG SCREEN / ZOOM OUT: Relative and Left Side */
+    position: relative;
+    margin-left: 5%;
+    max-width: 400px;
+    z-index: 100;
+}
+
+    /* JS Class to show the box */
+    .services-content.show {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: translateX(10px);
+    }
+
+/* Place the service box on the right for non-reverse triangles */
+.services-triangle:not(.reverse) .services-content {
+    margin-left: auto;
+    margin-right: 5%;
+    text-align: right;
+}
+
+    /* Slight inward slide when shown (right-side triangle) */
+    .services-triangle:not(.reverse) .services-content.show {
+        transform: translateX(-10px);
+    }
+
+/* ==========================================================================
+   5. Responsiveness & Mobile Flip
+   ========================================================================== */
+
+@media (max-width: 767px) {
+    .services-triangle {
+        height: 60vh;
+        clip-path: none !important; /* Shows full photo on mobile */
+        margin-bottom: 20px;
+    }
+
+    .services-content {
+        /* SMALL SCREEN: Absolute Centered */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        margin-left: 0;
+        width: 85%;
+        padding: 10px; /* Slightly reduced on mobile to keep content readable */
+        text-align: center; /* Center looks better on narrow mobile */
+    }
+
+        /* Maintain centering when shown on mobile */
+        .services-content.show {
+            transform: translate(-50%, -50%) scale(1) !important;
+        }
+}
+
+/* Fix for zoom out / very large screens */
+@media (min-width: 1400px) {
+    .services-content {
+        margin-left: 10%; /* Moves box slightly further in on ultra-wide */
+    }
+}

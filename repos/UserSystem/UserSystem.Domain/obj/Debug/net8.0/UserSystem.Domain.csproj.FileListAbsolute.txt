@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\bin\Debug\net8.0\UserSystem.Domain.deps.json
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\bin\Debug\net8.0\UserSystem.Domain.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\bin\Debug\net8.0\UserSystem.Domain.pdb
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\refint\UserSystem.Domain.dll
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\UserSystem.Domain.pdb
+C:\Users\Lenovo\source\repos\UserSystem\UserSystem.Domain\obj\Debug\net8.0\ref\UserSystem.Domain.dll
