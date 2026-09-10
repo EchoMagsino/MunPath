@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\bin\Debug\net9.0\MunPath.Domain.deps.json
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\bin\Debug\net9.0\MunPath.Domain.dll
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\bin\Debug\net9.0\MunPath.Domain.pdb
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.sourcelink.json
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.dll
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\refint\MunPath.Domain.dll
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\MunPath.Domain.pdb
+C:\Users\Lenovo\source\repos\MunPath\MunPath.Domain\obj\Debug\net9.0\ref\MunPath.Domain.dll
